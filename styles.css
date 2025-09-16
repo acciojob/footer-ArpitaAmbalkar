@@ -1,1 +1,70 @@
 /* your code here */
+*{
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+}
+.logo_name{
+	font-size:22px;
+}
+.content{
+	background-color:black;
+	color:white;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	padding:15px;
+}
+.link-boxes{
+	display:flex;
+	padding:10px;
+}
+ul{
+	list-style:none;
+	
+}
+.h1{
+	color:white;
+	padding:5px;
+}
+ul li{
+	color:#BEBFC5;
+	padding:3px;
+}
+.media-icons i{
+	width:30px;
+	height:30px;
+	background-color:black;
+	text-align:center;
+	align-content:center;
+	color:white;
+	border-radius:50%;
+	margin:6px;
+}
+.bottom-details{
+	background-color:#555555;
+	display:flex;
+	justify-content:space-between;
+	padding:15px;
+	color:#BEBFC5;
+}
+
+.h1 {
+    position: relative;       /* required for pseudo-element */
+    display: inline-block;    /* so underline matches text width */
+    padding-bottom: 4px;      /* space for underline */
+    font-weight: bold;
+	margin-bottom:5px;
+}
+
+.h1::after {
+    content: "";
+    position: absolute;
+    left: 3px;                  /* start of underline */
+    bottom: 0;                /* right under text */
+    width: 50%;               /* half-length underline */
+    height: 1px;              /* thickness */
+    background-color: white;  /* underline color */
+}
