@@ -33,6 +33,9 @@ ul li{
 	color:#BEBFC5;
 	padding:3px;
 }
+.media-icons{
+	display:flex;
+}
 .media-icons i{
 	width:30px;
 	height:30px;
